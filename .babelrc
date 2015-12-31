@@ -1,0 +1,27 @@
+{
+  "stage": 0,
+  "env": {
+    "production": {
+      "optional": [
+        "utility.inlineEnvironmentVariables"
+      ]
+    },
+    "development": {
+      "plugins": [
+        "react-transform",
+        "react-autoprefix"
+      ],
+      "extra": {
+        "react-transform": {
+          "transforms": [{
+            "transform": "livereactload/babel-transform",
+            "imports": ["react"]
+          },{
+            "transform": "react-transform-catch-errors",
+            "imports": ["react", "redbox-react"]
+          }]
+        }
+      }
+    }
+  }
+}

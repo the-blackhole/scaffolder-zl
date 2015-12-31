@@ -1,0 +1,24 @@
+[{
+  "id": 1,
+  "title": "Sample Title",
+  "content": "Sample content",
+  "createdAt": "2015-12-06 21:32:00",
+  "updatedAt": "2015-12-06 21:32:00",
+  "tags": [{
+    "name": "tag sample",
+    "type": "tags"
+  }]
+}, {
+  "id": 2,
+  "title": "Sample 2",
+  "content": "Sample Content, too",
+  "createdAt": "2015-12-04 21:32:00",
+  "updatedAt": "2015-12-04 21:32:00",
+  "tags": [{
+    "name": "tag sample",
+    "type": "tags"
+  }, {
+    "name": "tag sample 2",
+    "type": "tags"
+  }]
+}]
